@@ -30,11 +30,11 @@ Symlink every skill directory into your tool's skills path:
 for skill in aur-guides aur-audit aur-helpers aur-makepkg \
              aur-package-guidelines aur-pacman aur-pkgbuild \
              aur-submission aur-vcs-packages; do
-  ln -s "/path/to/pahheb-skills/$skill" "/tool/install/path/$skill"
+  ln -s "/path/to/aur-skills/$skill" "/tool/install/path/$skill"
 done
 ```
 
-Replace `/path/to/pahheb-skills` with the actual path to this repository on your machine, and `/tool/install/path` with your tool's specific path (see table below). A ready-made `install.sh` that does this for you is included in the repo root.
+Replace `/path/to/aur-skills` with the actual path to this repository on your machine, and `/tool/install/path` with your tool's specific path (see table below). A ready-made `install.sh` that does this for you is included in the repo root.
 
 ## Supported Tools
 
