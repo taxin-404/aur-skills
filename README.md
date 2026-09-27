@@ -1,4 +1,4 @@
-# pahheb-skills
+# aur-skills
 
 A collection of AI agent skills covering diverse topics for enhanced productivity and better adherence to requirements.
 
